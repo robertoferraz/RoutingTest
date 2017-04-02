@@ -129,7 +129,9 @@ class TFViewController: UIViewController, UISearchResultsUpdating, TFSearchResul
                 }
                 
             }, failure: { (error) in
-                
+                let alertControl = UIAlertController(title: "Ops", message: "It wasnt possible to calculate the route, please try again later", preferredStyle: .alert)
+                alertControl.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(alertControl, animated: true, completion: nil)
             })
         }
     }
