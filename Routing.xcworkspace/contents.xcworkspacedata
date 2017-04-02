@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Routing.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Data">
+      <FileRef
+         location = "group:Routing/Data/TFAddressHistory+CoreDataClass.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Routing/Data/TFAddressHistory+CoreDataProperties.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
